@@ -10,6 +10,9 @@ namespace GroupDocs.AssemblyExamples.ProjectEntities
     public class Entities
     {
         public static string imagePath = "../../../../Data/Images/";
+
+        //ExStart:ProjectEntities
+
         public class Customer
         {
             public String CustomerName { get; set; }
@@ -39,5 +42,7 @@ namespace GroupDocs.AssemblyExamples.ProjectEntities
             public int Discount { get; set; }
             public string ProductPrice { get; set; }
         }
+
+          //ExEnd:ProjectEntities
     }
 }
