@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupDocs.AssemblyExamples.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupDocs.AssemblyExamples.ProjectEntities", "GroupDocs.AssemblyExamples.ProjectEntities\GroupDocs.AssemblyExamples.ProjectEntities.csproj", "{65189345-C620-4736-8D0C-4BC6A25CFDEE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gist", "Gist", "{73CB0693-36AC-4A93-92C0-F780D190D191}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Gist_Atir_Test\GroupDocs.AssemblyExamples.ProjectEntities-Entities-ProjectEntities.cs = ..\..\Gist_Atir_Test\GroupDocs.AssemblyExamples.ProjectEntities-Entities-ProjectEntities.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
