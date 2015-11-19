@@ -13,7 +13,7 @@ namespace GroupDocs.AssemblyExamples
         static void Main(string[] args)
         {
             CommonUtilities.ProductLicense();
-
+            //file details
             string folderName = "PowerPointTemplates";
             string fileName = "Bubble Chart.pptx";
             string dataSourceName = "orders";
