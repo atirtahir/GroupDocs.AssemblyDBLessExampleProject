@@ -44,9 +44,9 @@ namespace GroupDocs.AssemblyExamples.BusinessLayer
         #region GetOrders
 
         /// <summary>
-        /// Returns orders information/data
+        /// It fetches order details from PopulateData
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Returns order details, one data at a time</returns>
 
         public static IEnumerable<Entities.Order> OrdersData()
         {
@@ -62,9 +62,9 @@ namespace GroupDocs.AssemblyExamples.BusinessLayer
         #region GetProducts
 
         /// <summary>
-        /// Returns product information/data
+        /// It fetches product details from PopulateData
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Returns product details, one data at a time</returns>
         public static IEnumerable<Entities.Product> ProductsData()
         {
             foreach (Entities.Customer customer in PopulateData())
@@ -79,9 +79,9 @@ namespace GroupDocs.AssemblyExamples.BusinessLayer
         #region GetSingleCustomer
 
         /// <summary>
-        /// Returns single customer's information/data. Usually the first customer.
+        /// It fetches customer details of very first customer
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Returns first customer's infromation</returns>
 
         public static Entities.Customer CustomerData()
         {

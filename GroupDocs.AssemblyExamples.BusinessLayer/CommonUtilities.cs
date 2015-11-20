@@ -24,11 +24,10 @@ namespace GroupDocs.AssemblyExamples.BusinessLayer
 
         /// <summary>
         /// Takes file name and source folder name as arguments. 
-        /// Returns explicit path by combining source folder path, source folder name and file name.
         /// </summary>
         /// <param name="sourceFileName">Source file name</param>
         /// <param name="sourceFolder">Source file's folder name</param>
-        /// <returns></returns>
+        /// <returns>Returns explicit path by combining source folder path, source folder name and file name.</returns>
 
         public static string DocumentSourceFolderPath(string sourceFileName, string sourceFolder)
         {
@@ -37,11 +36,10 @@ namespace GroupDocs.AssemblyExamples.BusinessLayer
 
         /// <summary>
         /// Takes file name and destination folder name as arguments. 
-        /// Returns explicit path by combining destination folder path, destination folder name and output file name.
         /// </summary>
         /// <param name="outputFileName">output file name</param>
         /// <param name="destinationFolder">output file's folder name</param>
-        /// <returns></returns>
+        /// <returns>Returns explicit path by combining destination folder path, destination folder name and output file name.</returns>
 
         public static string DocumentOutputFolderPath(string outputFileName, string destinationFolder)
         {
@@ -70,10 +68,9 @@ namespace GroupDocs.AssemblyExamples.BusinessLayer
 
         /// <summary>
         /// Takes source file name as argument and append it with datetime and "CS".
-        /// And returns appended file name.
         /// </summary>
         /// <param name="sourceFileName">Source file name</param>
-        /// <returns></returns>
+        /// <returns>Appended file name</returns>
         
         public static string ChangeFileName(string sourceFileName)
         {
