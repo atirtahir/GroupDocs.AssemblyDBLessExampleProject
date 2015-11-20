@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupDocs.AssemblyExamples", "GroupDocs.AssemblyExamples\GroupDocs.AssemblyExamples.csproj", "{E9B98DA5-9A99-4B14-8260-B05EB62C7458}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupDocs.AssemblyExamples", "CSharp\GroupDocs.AssemblyExamples\GroupDocs.AssemblyExamples.csproj", "{E9B98DA5-9A99-4B14-8260-B05EB62C7458}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupDocs.AssemblyExamples.BusinessLayer", "GroupDocs.AssemblyExamples.BusinessLayer\GroupDocs.AssemblyExamples.BusinessLayer.csproj", "{5984DD10-865D-470E-A963-9FDEF20929AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupDocs.AssemblyExamples.BusinessLayer", "CSharp\GroupDocs.AssemblyExamples.BusinessLayer\GroupDocs.AssemblyExamples.BusinessLayer.csproj", "{5984DD10-865D-470E-A963-9FDEF20929AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupDocs.AssemblyExamples.ProjectEntities", "GroupDocs.AssemblyExamples.ProjectEntities\GroupDocs.AssemblyExamples.ProjectEntities.csproj", "{65189345-C620-4736-8D0C-4BC6A25CFDEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupDocs.AssemblyExamples.ProjectEntities", "CSharp\GroupDocs.AssemblyExamples.ProjectEntities\GroupDocs.AssemblyExamples.ProjectEntities.csproj", "{65189345-C620-4736-8D0C-4BC6A25CFDEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{739A2D8E-6BB2-4FD5-AA16-CC6616E9B0FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{87A11799-2F31-4280-8B62-E8A4930D2DE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +34,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9B98DA5-9A99-4B14-8260-B05EB62C7458} = {739A2D8E-6BB2-4FD5-AA16-CC6616E9B0FF}
+		{5984DD10-865D-470E-A963-9FDEF20929AA} = {739A2D8E-6BB2-4FD5-AA16-CC6616E9B0FF}
+		{65189345-C620-4736-8D0C-4BC6A25CFDEE} = {739A2D8E-6BB2-4FD5-AA16-CC6616E9B0FF}
 	EndGlobalSection
 EndGlobal

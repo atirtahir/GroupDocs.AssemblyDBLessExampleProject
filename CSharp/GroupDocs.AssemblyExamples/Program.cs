@@ -12,7 +12,7 @@ namespace GroupDocs.AssemblyExamples
     {
         static void Main(string[] args)
         {
-            CommonUtilities.ProductLicense();
+            //CommonUtilities.ProductLicense();
             string folderName = "ExcelTemplates";
             string fileName = "Common List.xlsx";
             string dataSourceName = "customers";
