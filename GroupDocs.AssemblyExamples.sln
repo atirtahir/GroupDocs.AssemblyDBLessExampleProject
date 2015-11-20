@@ -16,8 +16,19 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SourceFolder", "SourceFolder", "{81752197-B468-404B-BD0D-E0698F93CCA1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DestinationFolder", "DestinationFolder", "{7F7D9220-2B72-4F59-93E5-E21D5070FF42}"
+	ProjectSection(SolutionItems) = preProject
+		Data\DestinationFolder\ExcelTemplates\Common List-20-11-2015-11-44-35-CS.xlsx = Data\DestinationFolder\ExcelTemplates\Common List-20-11-2015-11-44-35-CS.xlsx
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{6D6EE175-F85E-4239-9D1C-F98B7FA85419}"
+	ProjectSection(SolutionItems) = preProject
+		Data\Images\no-photo.jpg = Data\Images\no-photo.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExcelTempates", "ExcelTempates", "{29435933-1879-451F-9EBB-92C00CF8C03C}"
+	ProjectSection(SolutionItems) = preProject
+		Data\SourceFolder\ExcelTemplates\Common List.xlsx = Data\SourceFolder\ExcelTemplates\Common List.xlsx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,5 +59,6 @@ Global
 		{81752197-B468-404B-BD0D-E0698F93CCA1} = {1E612BEE-9BA7-4F77-AF45-0A537CEAB74B}
 		{7F7D9220-2B72-4F59-93E5-E21D5070FF42} = {1E612BEE-9BA7-4F77-AF45-0A537CEAB74B}
 		{6D6EE175-F85E-4239-9D1C-F98B7FA85419} = {1E612BEE-9BA7-4F77-AF45-0A537CEAB74B}
+		{29435933-1879-451F-9EBB-92C00CF8C03C} = {81752197-B468-404B-BD0D-E0698F93CCA1}
 	EndGlobalSection
 EndGlobal
