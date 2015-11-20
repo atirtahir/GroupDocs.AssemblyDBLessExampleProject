@@ -13,16 +13,15 @@ namespace GroupDocs.AssemblyExamples
         static void Main(string[] args)
         {
             CommonUtilities.ProductLicense();
-            //file details
-            string folderName = "PowerPointTemplates";
-            string fileName = "Bubble Chart.pptx";
-            string dataSourceName = "orders";
+            string folderName = "ExcelTemplates";
+            string fileName = "Common List.xlsx";
+            string dataSourceName = "customers";
             string updatedFileName = CommonUtilities.ChangeFileName(fileName);
 
             try
             {
                 DocumentAssembler assembler = new DocumentAssembler();
-                assembler.AssembleDocument(CommonUtilities.DocumentSourceFolderPath(fileName, folderName), CommonUtilities.DocumentOutputFolderPath(updatedFileName, folderName), DataLayer.OrdersData(), dataSourceName);
+                assembler.AssembleDocument(CommonUtilities.DocumentSourceFolderPath(fileName, folderName), CommonUtilities.DocumentOutputFolderPath(updatedFileName, folderName), DataLayer.PopulateData(), dataSourceName);
             }
             catch (Exception ex)
             {

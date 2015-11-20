@@ -12,6 +12,11 @@ namespace GroupDocs.AssemblyExamples.BusinessLayer
 
         #region DataInitialization
 
+        /// <summary>
+        /// This function initialize/populate the data. 
+        /// It initialize Customer information, product information and order information
+        /// </summary>
+        /// <returns></returns>
         public static IEnumerable<Entities.Customer> PopulateData()
         {
 
@@ -38,6 +43,11 @@ namespace GroupDocs.AssemblyExamples.BusinessLayer
 
         #region GetOrders
 
+        /// <summary>
+        /// Returns orders information/data
+        /// </summary>
+        /// <returns></returns>
+
         public static IEnumerable<Entities.Order> OrdersData()
         {
             foreach (Entities.Customer customer in PopulateData())
@@ -51,6 +61,10 @@ namespace GroupDocs.AssemblyExamples.BusinessLayer
 
         #region GetProducts
 
+        /// <summary>
+        /// Returns product information/data
+        /// </summary>
+        /// <returns></returns>
         public static IEnumerable<Entities.Product> ProductsData()
         {
             foreach (Entities.Customer customer in PopulateData())
@@ -63,6 +77,11 @@ namespace GroupDocs.AssemblyExamples.BusinessLayer
         #endregion
 
         #region GetSingleCustomer
+
+        /// <summary>
+        /// Returns single customer's information/data. Usually the first customer.
+        /// </summary>
+        /// <returns></returns>
 
         public static Entities.Customer CustomerData()
         {
