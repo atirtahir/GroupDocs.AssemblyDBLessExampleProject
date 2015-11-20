@@ -20,7 +20,7 @@ namespace GroupDocs.AssemblyExamples.BusinessLayer
         public static IEnumerable<Entities.Customer> PopulateData()
         {
 
-            Entities.Customer customer = new Entities.Customer { CustomerName = "Atir Tahir", CustomerContactNumber = "+92874", ShippingAddress = "Flat # 1, Kiyani Plaza ISB" };
+            Entities.Customer customer = new Entities.Customer { CustomerName = "Atir Tahir", CustomerContactNumber = "+921874", ShippingAddress = "Flat # 1, Kiyani Plaza ISB" };
             customer.Order = new Entities.Order[]
             {
                   new Entities.Order { Product = new Entities.Product { ProductName ="Lumia 525" }, Customer = customer, Price= 170, ProductQuantity = 5, OrderDate = new DateTime(2015, 1, 1) }
