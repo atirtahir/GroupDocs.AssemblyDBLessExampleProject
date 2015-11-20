@@ -12,9 +12,6 @@ namespace GroupDocs.AssemblyExamples.BusinessLayer
     {
         //ExStart:CommonUtilities
 
-     
-        
-
         public const string sourceFolderPath = "../../../../Data/SourceFolder/";
         public const string destinationFolderPath = "../../../../Data/DestinationFolder/";
         public const string licensePath = "../../GroupDocs.Assembly Product Family.lic";
